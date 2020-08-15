@@ -1,0 +1,8 @@
+prefix=/home/austin/IMU_ana/duckiefloat/install
+
+Name: Crash
+Description: Description of Crash
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

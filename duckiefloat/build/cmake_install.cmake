@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/austin/IMU_ana/duckiefloat/build/gtest/cmake_install.cmake")
+  include("/home/austin/IMU_ana/duckiefloat/build/Crash/cmake_install.cmake")
 
 endif()
 
