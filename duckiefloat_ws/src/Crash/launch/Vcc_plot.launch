@@ -1,0 +1,25 @@
+<launch>
+  <node pkg="rosbag" 
+        type="play" 
+        name="playe" 
+        output="screen" 
+        args="/home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_0.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_1.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_2.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_3.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_4.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_5.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_6.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_7.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_8.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_9.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_10.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_11.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_12.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_13.bag
+              /home/arg/Documents/VM_ubuntu_ssd/0203_1653/subt_14.bag"/>
+  <node name="angle_v" 
+        pkg="Crash" 
+        type="angle_v.py" />
+   
+</launch>

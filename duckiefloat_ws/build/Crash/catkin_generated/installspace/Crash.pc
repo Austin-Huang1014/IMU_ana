@@ -1,0 +1,8 @@
+prefix=/home/arg/dockiefloat_ws/install
+
+Name: Crash
+Description: Description of Crash
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arg/dockiefloat_ws/install/lib 
+Requires: 
